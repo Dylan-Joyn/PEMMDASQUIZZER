@@ -130,10 +130,12 @@
     <ClCompile Include="Calculate.cpp" />
     <ClCompile Include="PEMMDAS.cpp" />
     <ClCompile Include="PEMMDASQUIZZER.cpp" />
+    <ClCompile Include="System.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Calculate.h" />
     <ClInclude Include="PEMMDAS.h" />
+    <ClInclude Include="System.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

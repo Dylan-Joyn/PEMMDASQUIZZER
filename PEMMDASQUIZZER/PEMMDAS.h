@@ -11,8 +11,8 @@ private:
     vector<char> operators;
 
 public:
-    void generateExpression();
-    void printExpression();
+    void generateEquation();
+    void printEquation();
     vector<int> getNumbers() const;
     vector<char> getOperators() const;
 };

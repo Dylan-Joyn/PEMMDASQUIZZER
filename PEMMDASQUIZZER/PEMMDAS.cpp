@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void PEMMDAS::generateExpression() {
+void PEMMDAS::generateEquation() {
     numbers.resize(9);
     operators.resize(8);
 
@@ -24,7 +24,7 @@ void PEMMDAS::generateExpression() {
     }
 }
 
-void PEMMDAS::printExpression() {
+void PEMMDAS::printEquation() {
     for (size_t i = 0; i < operators.size(); ++i) {
         cout << numbers[i] << " " << operators[i] << " ";
     }
